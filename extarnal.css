@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(237, 245, 248);
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+div.first {
+    background-color: rgb(165, 42, 42);
+    width: 300px;
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+    background: rgba(35, 91, 35, 0.8);
+
+}
+div.image>img {
+    width: 10%;
+    margin: 20px;
+}
+
+.image>p {
+
+    color: white;
+    background-color: black;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+div>nav.navbar {
+    background-color: darkgray;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+div.para {
+  height: 350px;
+  width: 500px;
+  overflow: scroll;
+  margin: 15px;
+  padding: 10px;
+ 
+}
+
+div.para>p {
+  color: blue;
+   transition-timing-function: ease-in;
+   transition-delay: 3s;
+}
+
+div.para>p:hover {
+  color: rgb(193, 0, 0);
+}
